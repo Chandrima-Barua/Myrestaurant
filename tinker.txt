@@ -1,0 +1,9 @@
+php artisan tinker
+
+$admin = new Admin
+$admin ->name = "your Name"
+$admin ->email = "your mail"
+$admin ->password =Hash::make("password")
+$admin ->job_title ="Intern"
+$admin ->save()
+
